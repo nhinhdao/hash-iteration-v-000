@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
       # add the code snippet here!
-      passengers.each {|i,e| e if i == suite_a && e[0] == 'A'}
+      passengers.each {|i,e| return e if i == suite_a && e[0] == 'A'}
 end
