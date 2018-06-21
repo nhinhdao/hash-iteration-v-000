@@ -13,4 +13,5 @@ def select_winner(passengers)
             if i == suite_a && e.split(" ")[0] == 'A'
                   winner = e
             end
+      end
 end
